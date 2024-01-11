@@ -19,3 +19,15 @@ if(keyboard_check(ord("S")))
 {	
 	y += _player_speed;
 }
+
+// Shooting
+if(keyboard_check(ord("E")))
+{
+	instance_create_layer(x,y,layer,obj_bullet); 
+	show_debug_message("bullet");
+}
+if(mouse_check_button(mb_left))
+{
+	instance_create_layer(x,y,layer,obj_bullet); 
+	show_debug_message("bullet");
+}

@@ -102,10 +102,7 @@
     "name": "Timelines",
     "path": "folders/Timelines.yy",
   },
-  "spriteId": {
-    "name": "spr_interiors",
-    "path": "sprites/spr_interiors/spr_interiors.yy",
-  },
+  "spriteId": null,
   "spriteNoExport": false,
   "textureGroupId": {
     "name": "Default",
